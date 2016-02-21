@@ -1,0 +1,31 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ConsoleApp1 Console Application",
+  "authors": [ "Matthew" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+    "dependencies": {
+        "Autofac": "3.5.2",
+        "Castle.Windsor": "3.3.0",
+        "Hiro": "1.0.5.17956",
+        "Munq.IocContainer": "3.1.6",
+        "Ninject": "3.2.2",
+        "structuremap": "4.0.1.318",
+        "Unity": "4.0.1",
+        "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
+    },
+
+  "commands": {
+    "ConsoleApp1": "ConsoleApp1"
+  },
+
+  "frameworks": {
+    "dnx46": { }
+  }
+}
